@@ -665,6 +665,7 @@ footer {
     transform: translateY(-50%);
     margin-left: 300px;
     padding: 15px;
+    width: calc(100% - 300px);
 
     h3 {
         font-size: 1.5em;
@@ -912,6 +913,10 @@ footer {
 
 // Small Devices
 @media only screen and (max-width : 768px) {
+
+    .project-info {
+        width: unset;
+    }
 
     header {
         position: fixed;
